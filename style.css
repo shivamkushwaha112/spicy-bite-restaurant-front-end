@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+   background-image: url(https://img.freepik.com/free-vector/burger-fast-food-concept-hand-drawn-sketch-vector-illustration_354956-1020.jpg?semt=ais_hybrid&w=740&q=80);
+   height: 100%;
+   background-attachment: fixed;
+}
+header{
+    text-align: center;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+    color: white;
+}
+.items{
+     background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    width: 700px;
+    margin: 20px;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serifopen;
+}
+.items{
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.items:hover{
+ transform: scale(1.05);
+}
+.prize{
+    margin-left: 650px;
+    color: green;
+}
+.nav{
+    color: aliceblue;
+}
+.order{
+    color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  background-color: darkslategrey;
+  color: white;
+  transition: 0.3s;
+  
+}
+.navbar:hover{
+  transform: scale(1.05);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-between;
+
+}
+
+.nav-links li {
+  padding: 2px;
+  margin: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
+
+/* Optional Button Style */
+.btn {
+  background-color: #00adb5;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.about{
+    margin-left: 1000px;
+}
