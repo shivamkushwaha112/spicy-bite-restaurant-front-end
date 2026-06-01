@@ -1,18 +1,35 @@
-body{
-    margin: 0px;
-   background-image: url(https://img.freepik.com/free-vector/burger-fast-food-concept-hand-drawn-sketch-vector-illustration_354956-1020.jpg?semt=ais_hybrid&w=740&q=80);
-   height: 100%;
-   background-attachment: fixed;
+::-webkit-scrollbar {
+    width: 12px;
 }
-header{
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #e7b1b1, #c07777, #af5b5b, #1a1717);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #022926, #3d8585, #478983, #275b56);
+    border-radius: 7px;
+}
+
+
+body {
+    margin: 0px;
+    background-image: url(https://img.freepik.com/free-vector/burger-fast-food-concept-hand-drawn-sketch-vector-illustration_354956-1020.jpg?semt=ais_hybrid&w=740&q=80);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
     text-align: center;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 1px;
     color: white;
 }
-.items{
-     background-color: white;
+
+.items {
+    background-color: white;
     padding: 2px;
     border-radius: 10px;
     width: 700px;
@@ -21,76 +38,153 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font: 30px;
+    text-decoration: none;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: black;
     color: white;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serifopen;
+
 }
-.items{
+
+.items {
     transition: 0.3s;
     border-radius: 20px;
 }
-.items:hover{
- transform: scale(1.05);
+
+.items:hover {
+    transform: scale(1.05);
 }
-.prize{
+
+.prize {
     margin-left: 650px;
     color: green;
 }
-.nav{
+
+.nav {
     color: aliceblue;
 }
-.order{
+
+.order {
     color: aliceblue;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1px;
-  background-color: darkslategrey;
-  color: white;
-  transition: 0.3s;
-  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: darkslategrey;
+    color: white;
+    transition: 0.3s;
+
 }
-.navbar:hover{
-  transform: scale(1.05);
+
+.navbar:hover {
+    transform: scale(1.05);
 }
 
 .nav-links {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-  justify-content: space-between;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: space-between;
 
 }
 
 .nav-links li {
-  padding: 2px;
-  margin: 20px;
+    padding: 2px;
+    margin: 20px;
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #00adb5;
+    color: #00adb5;
 }
 
 /* Optional Button Style */
 .btn {
-  background-color: #00adb5;
-  padding: 8px 15px;
-  border-radius: 5px;
+    background-color: #00adb5;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
-.about{
+
+.about {
     margin-left: 1000px;
+}
+
+.footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 33.33%;
+    margin: 10px 20px; 
+}
+
+.footer-text {
+    color: #9e9e9e;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.footer h5 {
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.info-icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-link {
+    color: #668cad;
+    border-bottom: 1px solid #d5d5e0;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-link:hover {
+    color: rgba(0, 140, 255, .84);
+}
+.length{
+    width: 100%;
+    height: 100vh;
+}
+.para1{
+    font-size: 20px;
+    color: white;
+}
+.items a{
+    text-decoration: none;
 }
