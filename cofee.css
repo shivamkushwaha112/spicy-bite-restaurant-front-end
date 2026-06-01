@@ -1,0 +1,28 @@
+::-webkit-scrollbar
+{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: linear-gradient(transparent,#e7b1b1,#c07777,#af5b5b,#1a1717);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#022926,#3d8585,#478983,#275b56);
+    border-radius: 7px;
+}
+
+body h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    margin: 0px;
+     width: 93.5%;
+    background-color: #022926;
+    color: white;
+}
+.img{
+    width: 100%;
+}

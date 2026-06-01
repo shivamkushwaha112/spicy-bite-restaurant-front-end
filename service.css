@@ -1,0 +1,133 @@
+
+::-webkit-scrollbar
+{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: linear-gradient(transparent,#e7b1b1,#c07777,#af5b5b,#1a1717);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#022926,#3d8585,#478983,#275b56);
+    border-radius: 7px;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(3, 62, 64);
+    padding: 10px;
+    transition: 0.3s;
+}
+header:hover{
+    transform: scale(1.1);
+    color: #275b56;
+}
+body h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+body h1:hover{
+    transform: scale(1.1);
+    color: #275b56;
+}
+body p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.pizza h2{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s;
+
+
+}
+.pizza h2:hover{
+    transform: scale(1.1);
+    color: #275b56;
+
+}
+.pizza p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.burger h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    transition: 0.3s;
+    
+
+
+}
+.burger h2:hover{
+    transform: scale(1.1);
+    color: #275b56;
+}
+.burger p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.cofee{
+    margin-top: 3%;
+}
+.cofee h2{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s;
+
+
+} 
+.cofee h2:hover{
+     transform: scale(1.1);
+     color: #275b56;
+}
+.pasta{
+    margin-top: 3%;
+}
+.pasta h2{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s;
+
+
+}
+.pasta h2:hover{
+     transform: scale(1.1);
+     color: #275b56;
+}
+img{
+    transition: 0.4s;
+}
+img:hover{
+    transform: scale(1.1);
+    color: #275b56;
+}
+.fries h2{
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s;
+
+
+}
+.fries h2:hover{
+    transform: scale(1.1);
+    color: #275b56;
+
+}
+.fries p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
